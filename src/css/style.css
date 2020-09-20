@@ -1,0 +1,128 @@
+.wrapper {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  max-width: 1550px;
+  margin: 50px 50px;
+}
+
+.wrapper header {
+  border: solid 1px pink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.wrapper header .wrap_title {
+  border: solid 1px black;
+}
+
+.wrapper header .wrap_title .title {
+  border: solid 1px red;
+  margin: 0px;
+  font-size: 50px;
+}
+
+.wrapper header .wrap_title .title_sub {
+  border: solid 1px blue;
+  font-size: 25px;
+  color: gray;
+}
+
+.wrapper header .wrap_menu {
+  border: solid 1px green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 25px;
+}
+
+.wrapper header .wrap_menu .box1 {
+  margin: 0px 20px;
+}
+
+.wrapper header .wrap_menu .box2 {
+  margin: 0px 20px;
+}
+
+.wrapper header .wrap_menu .box3 {
+  margin: 0px 20px;
+}
+
+.wrapper header .wrap_menu .box4 {
+  margin: 0px 20px;
+}
+
+.wrapper header .wrap_menu .box5 {
+  margin: 0px 20px 0px 150px;
+}
+
+.wrapper .top {
+  border: solid 1px blue;
+  margin: 100px 0px;
+}
+
+.wrapper .top .wrap_img {
+  border: solid 1px green;
+}
+
+.wrapper .top .wrap_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper .top .word {
+  border: solid 1px red;
+  margin: 50px 0px;
+  font-size: 40px;
+  color: gray;
+}
+
+.wrapper .main {
+  border: solid 1px black;
+}
+
+.wrapper .main .wrap_item {
+  border: solid 1px red;
+}
+
+.wrapper .main .wrap_item .item {
+  border: solid 1px blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px 0px;
+}
+
+.wrapper .main .wrap_item .item .date {
+  border: solid 1px green;
+  margin: 25px 0px;
+  width: 33.3%;
+  font-size: 25px;
+  color: gray;
+}
+
+.wrapper .main .wrap_item .item .wrap {
+  border: solid 1px orange;
+  width: 66.6%;
+}
+
+.wrapper .main .wrap_item .item .wrap .title {
+  border: solid 1px pink;
+  margin: 25px 0px;
+  font-size: 30px;
+  color: black;
+}
+
+.wrapper .main .wrap_item .item .wrap .sentence {
+  border: solid 1px skyblue;
+  margin: 25px 0px;
+  font-size: 25px;
+  color: gray;
+}
+/*# sourceMappingURL=style.css.map */

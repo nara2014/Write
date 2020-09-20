@@ -1,0 +1,106 @@
+// フォント
+
+// @mixin 関数
+@mixin debug($color) {
+  border: solid 1px $color;
+}
+
+.wrapper {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  max-width: 1550px;
+  margin: 50px 50px;
+
+  header {
+    @include debug(pink);
+    display: flex;
+    margin: 50px 0px;
+    justify-content: space-between;
+    align-items: flex-end;
+    .wrap_title {
+      @include debug(black);
+      .title {
+        @include debug(red);
+        margin: 0px;
+        font-size: 50px;
+      }
+      .title_sub {
+        @include debug(blue);
+        font-size: 25px;
+        color: gray;
+      }
+    }
+    .wrap_menu {
+      @include debug(green);
+      display: flex;
+      font-size: 25px;
+      .box1 {
+        margin: 0px 20px;
+      }
+      .box2 {
+        margin: 0px 20px;
+      }
+      .box3 {
+        margin: 0px 20px;
+      }
+      .box4 {
+        margin: 0px 20px;
+      }
+      .box5 {
+        margin: 0px 20px 0px 150px;
+      }
+    }
+  }
+
+  .top {
+    @include debug(blue);
+    margin: 100px 0px;
+    .wrap_img {
+      @include debug(green);
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .word {
+      @include debug(red);
+      margin: 50px 0px;
+      font-size: 40px;
+      color: gray;
+    }
+  }
+
+  .main {
+    @include debug(black);
+    .wrap_item {
+      @include debug(red);
+      .item {
+        @include debug(blue);
+        display: flex;
+        margin: 50px 0px;
+        .date {
+          @include debug(green);
+          margin: 25px 0px;
+          width: 33.3%;
+          font-size: 25px;
+          color: gray;
+        }
+        .wrap {
+          @include debug(orange);
+          width: 66.6%;
+          .title {
+          @include debug(pink);
+            margin: 25px 0px;
+            font-size: 30px;
+            color: black;
+          }
+          .sentence {
+            @include debug(skyblue);
+            margin: 25px 0px;
+            font-size: 25px;
+            color: gray;
+          }
+        }
+      }
+    }
+  }
+}

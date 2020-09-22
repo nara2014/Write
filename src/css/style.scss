@@ -3,12 +3,33 @@
 // @mixin 関数
 @mixin debug($color) {
   border: solid 1px $color;
+  // margin: 2px;
+  padding: 2px;
 }
 
+@mixin page_style {
+  font-size: 24px;
+  font-weight: bold;
+  border: solid 1px gray;
+  margin: 7.5px;
+  padding: 12px 25px;
+}
+
+// リンク文字色
+a:link { color: gray; }     // 未訪問 
+a:visited { color: gray; }  // 訪問済
+a:hover { color: orange; }  // ポイント時
+a:active { color: orange; } // 選択中
+// a { text-decoration: none; }
+
+
 .wrapper {
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  // font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: Georgia, "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
   max-width: 1550px;
-  margin: 50px 50px;
+  // width: 100%;
+  margin: auto auto;
+  padding: 50px;
 
   header {
     @include debug(pink);
@@ -88,7 +109,7 @@
           @include debug(orange);
           width: 66.6%;
           .title {
-          @include debug(pink);
+            @include debug(pink);
             margin: 25px 0px;
             font-size: 30px;
             color: black;
@@ -102,5 +123,158 @@
         }
       }
     }
+
+    .page {
+      @include debug(green);
+      display: flex;
+      .container_left {
+        @include debug(orange);
+        width: 33.3%;
+      }
+      .container_right {
+        @include debug(brown);
+        display: flex;
+        width: 66.6%;
+        .page1 {
+          @include page_style();
+        }
+        .page2 {
+          @include page_style();
+        }
+        .page3 {
+          @include page_style();
+        }
+        .next {
+          @include page_style();
+        }
+      }
+    }
+  }
+
+  .wrap_hr {
+    @include debug(brown);
+    padding: 100px 0px;
+  }
+
+  .prof {
+    @include debug(rgb(46, 43, 43));
+    display: flex;
+    color: gray;
+    .container_prof {
+      @include debug(blue);
+      display: flex;
+      flex-wrap: wrap;
+      width: 25%;
+      .wrap_prof {
+        @include debug(pink);
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        .wrap_img {
+          img {
+            border-radius: 50%;
+            width: 150px;
+          }
+        }
+        .wrap_name {
+          @include debug(red);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 0px 35px;
+          .name {
+            @include debug(green);
+            color: black;
+            font-size: 28px;
+            font-weight: bold;
+            width: 150px;
+            // margin: 30px;
+          }
+          .wrap_icons {
+            @include debug(gold);
+            display: flex;
+            justify-content: space-between;
+            width: 150px;
+            // margin: 30px;
+            // .fab fontawesome のアイコン
+            .fab {
+              @include debug(blue);
+              font-size: 2em;
+              color: skyblue;
+            }
+          }
+        }
+      }
+      .wrap_info {
+        @include debug(green);
+        font-size: 25px;
+      }
+    }
+    .foot_R {
+      @include debug(blue);
+      display: flex;
+      flex-direction: column;
+      width: 24%;
+      padding-left: 100px;
+      padding-right: 30px;
+      .title {
+        color: black;
+        font-size: 21px;
+        font-weight: bold;
+        margin-bottom: 40px;
+      }
+      .word {
+        font-size: 24px;
+      }
+    }
+    .recent {
+      @include debug(blue);
+      display: flex;
+      flex-direction: column;
+      width: 25%;
+      padding-left: 40px;
+      .title {
+        color: black;
+        font-size: 21px;
+        font-weight: bold;
+        margin-bottom: 40px;
+      }
+      .wrap_item {
+        @include debug(gold);
+        font-size: 24px;
+        padding-bottom: 15px;
+        .subject {
+          @include debug(blue);
+          text-decoration: none;
+          border: none;
+          padding: 1px;
+          border-bottom: 1px solid;
+          border-color: rgb(200, 200, 200);
+        }
+        .date {
+        }
+      }
+    }
+    .category {
+      @include debug(blue);
+      display: flex;
+      flex-direction: column;
+      width: 25%;
+      padding-left: 60px;
+      .title {
+        color: black;
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 40px;
+      }
+      .wrap_item {
+        font-size: 24px;
+        .subject {
+        }
+      }
+    }
+  }
+
+  .foot {
   }
 }

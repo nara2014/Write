@@ -24,7 +24,6 @@ a:active {
 
 .wrapper header {
   border: solid 1px pink;
-  padding: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,26 +38,22 @@ a:active {
 
 .wrapper header .wrap_title {
   border: solid 1px black;
-  padding: 2px;
 }
 
 .wrapper header .wrap_title .title {
   border: solid 1px red;
-  padding: 2px;
   margin: 0px;
   font-size: 50px;
 }
 
 .wrapper header .wrap_title .title_sub {
   border: solid 1px blue;
-  padding: 2px;
   font-size: 25px;
   color: gray;
 }
 
 .wrapper header .wrap_menu {
   border: solid 1px green;
-  padding: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -87,13 +82,11 @@ a:active {
 
 .wrapper .top {
   border: solid 1px blue;
-  padding: 2px;
   margin: 100px 0px;
 }
 
 .wrapper .top .wrap_img {
   border: solid 1px green;
-  padding: 2px;
 }
 
 .wrapper .top .wrap_img img {
@@ -103,7 +96,6 @@ a:active {
 
 .wrapper .top .word {
   border: solid 1px red;
-  padding: 2px;
   margin: 50px 0px;
   font-size: 40px;
   color: gray;
@@ -111,17 +103,14 @@ a:active {
 
 .wrapper .main {
   border: solid 1px black;
-  padding: 2px;
 }
 
 .wrapper .main .wrap_item {
   border: solid 1px red;
-  padding: 2px;
 }
 
 .wrapper .main .wrap_item .item {
   border: solid 1px blue;
-  padding: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,7 +119,6 @@ a:active {
 
 .wrapper .main .wrap_item .item .date {
   border: solid 1px green;
-  padding: 2px;
   margin: 25px 0px;
   width: 33.3%;
   font-size: 25px;
@@ -139,13 +127,11 @@ a:active {
 
 .wrapper .main .wrap_item .item .wrap {
   border: solid 1px orange;
-  padding: 2px;
   width: 66.6%;
 }
 
 .wrapper .main .wrap_item .item .wrap .title {
   border: solid 1px pink;
-  padding: 2px;
   margin: 25px 0px;
   font-size: 30px;
   color: black;
@@ -153,7 +139,6 @@ a:active {
 
 .wrapper .main .wrap_item .item .wrap .sentence {
   border: solid 1px skyblue;
-  padding: 2px;
   margin: 25px 0px;
   font-size: 25px;
   color: gray;
@@ -161,7 +146,6 @@ a:active {
 
 .wrapper .main .page {
   border: solid 1px green;
-  padding: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -169,13 +153,11 @@ a:active {
 
 .wrapper .main .page .container_left {
   border: solid 1px orange;
-  padding: 2px;
   width: 33.3%;
 }
 
 .wrapper .main .page .container_right {
   border: solid 1px brown;
-  padding: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -216,13 +198,11 @@ a:active {
 
 .wrapper .wrap_hr {
   border: solid 1px brown;
-  padding: 2px;
   padding: 100px 0px;
 }
 
 .wrapper .prof {
   border: solid 1px #2e2b2b;
-  padding: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -231,7 +211,6 @@ a:active {
 
 .wrapper .prof .container_prof {
   border: solid 1px blue;
-  padding: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -242,7 +221,6 @@ a:active {
 
 .wrapper .prof .container_prof .wrap_prof {
   border: solid 1px pink;
-  padding: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -259,7 +237,6 @@ a:active {
 
 .wrapper .prof .container_prof .wrap_prof .wrap_name {
   border: solid 1px red;
-  padding: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -275,7 +252,6 @@ a:active {
 
 .wrapper .prof .container_prof .wrap_prof .wrap_name .name {
   border: solid 1px green;
-  padding: 2px;
   color: black;
   font-size: 28px;
   font-weight: bold;
@@ -284,7 +260,6 @@ a:active {
 
 .wrapper .prof .container_prof .wrap_prof .wrap_name .wrap_icons {
   border: solid 1px gold;
-  padding: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -296,20 +271,17 @@ a:active {
 
 .wrapper .prof .container_prof .wrap_prof .wrap_name .wrap_icons .fab {
   border: solid 1px blue;
-  padding: 2px;
   font-size: 2em;
   color: skyblue;
 }
 
 .wrapper .prof .container_prof .wrap_info {
   border: solid 1px green;
-  padding: 2px;
   font-size: 25px;
 }
 
 .wrapper .prof .foot_R {
   border: solid 1px blue;
-  padding: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -335,7 +307,6 @@ a:active {
 
 .wrapper .prof .recent {
   border: solid 1px blue;
-  padding: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -356,14 +327,12 @@ a:active {
 
 .wrapper .prof .recent .wrap_item {
   border: solid 1px gold;
-  padding: 2px;
   font-size: 24px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 .wrapper .prof .recent .wrap_item .subject {
   border: solid 1px blue;
-  padding: 2px;
   text-decoration: none;
   border: none;
   padding: 1px;
@@ -372,20 +341,13 @@ a:active {
 }
 
 .wrapper .prof .category {
-  border: solid 1px blue;
-  padding: 2px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  border: solid 1px red;
   width: 25%;
   padding-left: 60px;
 }
 
 .wrapper .prof .category .title {
+  border: solid 1px black;
   color: black;
   font-size: 22px;
   font-weight: bold;
@@ -393,6 +355,45 @@ a:active {
 }
 
 .wrapper .prof .category .wrap_item {
+  border: solid 1px green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   font-size: 24px;
+}
+
+.wrapper .prof .category .wrap_item .wrap_a {
+  border: solid 1px blue;
+  margin-bottom: 10px;
+}
+
+.wrapper .prof .category .wrap_item .wrap_a .subject {
+  text-decoration: none;
+  border: none;
+  padding: 1px;
+  border-bottom: 1px solid;
+  border-color: #c8c8c8;
+}
+
+.wrapper .prof .category .wrap_item .wrap_input {
+  margin-top: 120px;
+}
+
+.wrapper .prof .category .wrap_item .wrap_input input {
+  font-family: Georgia, "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  color: gray;
+  max-width: 320px;
+  width: 100%;
+  padding: 0.6em;
+  font-size: 24px;
+  border-style: solid;
+  border-color: #bbbbbb;
 }
 /*# sourceMappingURL=style.css.map */

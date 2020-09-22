@@ -4,7 +4,7 @@
 @mixin debug($color) {
   border: solid 1px $color;
   // margin: 2px;
-  padding: 2px;
+  // padding: 2px;
 }
 
 @mixin page_style {
@@ -16,12 +16,18 @@
 }
 
 // リンク文字色
-a:link { color: gray; }     // 未訪問 
-a:visited { color: gray; }  // 訪問済
-a:hover { color: orange; }  // ポイント時
-a:active { color: orange; } // 選択中
-// a { text-decoration: none; }
-
+a:link {
+  color: gray;
+} // 未訪問
+a:visited {
+  color: gray;
+} // 訪問済
+a:hover {
+  color: orange;
+} // ポイント時
+a:active {
+  color: orange;
+} // 選択中
 
 .wrapper {
   // font-family: "M PLUS Rounded 1c", sans-serif;
@@ -242,7 +248,7 @@ a:active { color: orange; } // 選択中
       .wrap_item {
         @include debug(gold);
         font-size: 24px;
-        padding-bottom: 15px;
+        padding-bottom: 20px;
         .subject {
           @include debug(blue);
           text-decoration: none;
@@ -256,20 +262,47 @@ a:active { color: orange; } // 選択中
       }
     }
     .category {
-      @include debug(blue);
-      display: flex;
-      flex-direction: column;
+      @include debug(red);
       width: 25%;
       padding-left: 60px;
       .title {
+        @include debug(black);
         color: black;
         font-size: 22px;
         font-weight: bold;
         margin-bottom: 40px;
       }
       .wrap_item {
+        @include debug(green);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;  
         font-size: 24px;
-        .subject {
+        // height: auto;
+        .wrap_a {
+        @include debug(blue);
+          margin-bottom: 10px;
+          .subject {
+            text-decoration: none;
+            border: none;
+            padding: 1px;
+            border-bottom: 1px solid;
+            border-color: rgb(200, 200, 200);
+          }
+        }
+        .wrap_input{
+          margin-top: 120px;
+          input {
+            font-family: Georgia, "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+            color: gray;
+            max-width: 320px;
+            width: 100%;
+            padding: 0.6em;
+            font-size: 24px;
+            border-style: solid;
+            border-color: rgb(187, 187, 187);
+          
+          }
         }
       }
     }

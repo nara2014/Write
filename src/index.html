@@ -9,23 +9,39 @@
     <link rel="stylesheet" href="css/style.css" />
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 
+    <!-- cssリセット -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"> -->
+
 </head>
 
 <body>
-    <div class="wrapper">
 
+    <div class="wrapper">
         <header>
             <div class="wrap_title">
                 <h1 class="title">Write</h1>
                 <div class="title_sub">書くためのテーマ</div>
             </div>
-            <div class="wrap_menu">
-                <div class="box1">ホーム</div>
-                <div class="box2">ページ</div>
-                <div class="box3">タイポグラフィー</div>
-                <div class="box4">お問い合わせ</div>
-                <div class="box5">検索</div>
-            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">ホーム</a>
+                        <ul>
+                            <li><a href="#">→カスタマイズ</a></li>
+                            <li><a href="#">→カスタマイズ</a></li>
+                            <li><a href="#">→カスタマイズ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">ページ</a>
+                        <ul>
+                            <li><a href="#">アイキャッチ画像無しのページ</a></li>
+                            <li><a href="#">ページ（全幅テンプレート）</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_typo">タイポグラフィー</li>
+                    <li class="menu_contact">お問い合わせ</li>
+                    <li class="menu_search">検索</li>
+                </ul>
+            </nav>
         </header>
 
         <div class="top">
@@ -125,12 +141,39 @@
                     </div>
                 </div>
             </div>
+        </div>
 
+        <div class="wrap_hr">
+            <hr>
         </div>
 
         <footer>
-            <div class="icons"></div>
-            <div class="word"></div>
+            <div class="container_footer">
+                <div class="wrap_icons">
+                    <div class="icon_tweeter">
+                        <a href="https://twitter.com/WordPress">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="icon_facebook">
+                        <a href="https://www.facebook.com/WordPress">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="icon_instagram">
+                        <a href="https://www.instagram.com/unsplash/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="wrap_words">
+                    <span class="word1">Powered by</span>
+                    <a class="aa word2" href="https://ja.wordpress.org/">WordPress</a>
+                    <span class="word3">| Theme: </span>
+                    <a class="aa word4" href="https://themegraphy.com/ja/wordpress-themes/write/">Write</a>
+                    <span class="word5">by Themegraphy</span>
+                </div>
+            </div>
         </footer>
 
     </div>
